@@ -1,10 +1,10 @@
 <?php
-//  src/Controller/TodaysDate.php
+//  src/Controller/TodaysDateController.php
 namespace App\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
-class TodaysDate {
+class TodaysDateController {
     
     public function today(): Response {
 

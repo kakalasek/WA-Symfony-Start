@@ -3,7 +3,7 @@ helloworld:
     controller: App\Controller\HelloWorldController::hello
 today:
     path: /today/date
-    controller: App\Controller\TodaysDate::today
+    controller: App\Controller\TodaysDateController::today
 random:
     path: /random/number
-    controller:
+    controller: App\Controller\RandomNumberController::random
