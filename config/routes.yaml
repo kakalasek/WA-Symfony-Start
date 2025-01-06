@@ -1,3 +1,9 @@
 helloworld:
     path: /hello/world
     controller: App\Controller\HelloWorldController::hello
+today:
+    path: /today/date
+    controller: App\Controller\TodaysDate::today
+random:
+    path: /random/number
+    controller:
