@@ -13,8 +13,6 @@ class RandomNumberController extends AbstractController{
 
         $randomNumber = rand();
 
-        return new Response(
-            "<html><body>$randomNumber</body></html>"
-        );
+        return $this->render('nahodne_cislo.html.twig', ['randomNumber' => $randomNumber,]);
     }
 }

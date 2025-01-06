@@ -13,8 +13,7 @@ class TodaysDateController extends AbstractController{
 
         $todaysDate = date("Y/m/d");
 
-        return new Response(
-            "<html><body>{$todaysDate}</body></html>"
-        );
+        return $this->render('dnesni_datum.html.twig', ['today' => $todaysDate,]);
+
     }
 }
