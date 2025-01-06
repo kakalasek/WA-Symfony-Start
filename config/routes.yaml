@@ -1,9 +1,9 @@
-helloworld:
-    path: /hello/world
-    controller: App\Controller\HelloWorldController::hello
-today:
-    path: /today/date
-    controller: App\Controller\TodaysDateController::today
-random:
-    path: /random/number
-    controller: App\Controller\RandomNumberController::random
+controllers:
+    resource:
+        path: ../src/Controller
+        namespace: App\Controller
+    type: attribute
+
+kernel:
+    resource: App\Kernel
+    type: attribute
